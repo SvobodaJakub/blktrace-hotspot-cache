@@ -19,12 +19,12 @@ tool to pre-cache most frequently used sectors on a slow block device
 * the tool caches only blocks of reads smaller than 100000 bytes because rotational HDDs are slowest with the smallest reads and fastest with the most linear reads
 * future work - get `blktrace`'s `-f "%u"` working and develop logic that caches only the slowest requests
 * nice reads about how little caching is enough if you cache the right things (I am in no way affiliated with Seagate, it's just that there are resources particularly about their products and the resources are very relevant to this tool)
-** http://www.silicon.co.uk/workspace/seagate-hybrid-drives-dont-need-more-than-8gb-of-nand-124069
-** http://www.tomshardware.com/us/sponsored/Seagate-winning-boot-drive-battles-214-3
-** https://www.seagate.com/www-content/product-content/momentus-fam/momentus-xt/_shared/docs/fast-storage-3-sea20802us.pdf (PDF)
+    * http://www.silicon.co.uk/workspace/seagate-hybrid-drives-dont-need-more-than-8gb-of-nand-124069
+    * http://www.tomshardware.com/us/sponsored/Seagate-winning-boot-drive-battles-214-3
+    * https://www.seagate.com/www-content/product-content/momentus-fam/momentus-xt/_shared/docs/fast-storage-3-sea20802us.pdf (PDF)
 * relevant software
-** https://hoytech.com/vmtouch/
-** https://bcache.evilpiepirate.org/
+    * https://hoytech.com/vmtouch/
+    * https://bcache.evilpiepirate.org/
 
 
 ## setup
